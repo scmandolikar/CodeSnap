@@ -1,0 +1,19 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Local Database
+# This ensures you don't upload your personal snippets,
+# only the code to create the database.
+database/snippets.db
+
+# OS-specific files
+.DS_Store
+
+# IDE-specific folders
+.idea/
+.vscode/
