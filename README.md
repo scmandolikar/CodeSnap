@@ -71,3 +71,95 @@ This project solves two common problems: managing a messy library of code snippe
     ```bash
     python main.py
     ```
+
+---
+
+## 🎯 Use Cases
+
+CodeSnap is ideal for:
+
+- **Technical Writers & Bloggers**: Create professional-looking code images for articles and tutorials
+- **Developers**: Manage your personal snippet library offline without relying on cloud services
+- **Educators**: Organize teaching materials and create beautiful code examples for presentations
+- **Code Reviewers**: Save frequently used code patterns and best practices for reference
+- **Interview Preparation**: Store and quickly access commonly asked coding problems and solutions
+- **Documentation**: Generate consistent, styled code images for project documentation
+
+---
+
+## 📝 Creating requirements.txt
+
+To ensure all dependencies are installed, create a `requirements.txt` file with the following content:
+
+```txt
+PyQt6
+Pygments
+Pillow
+black
+jsbeautifier
+```
+
+Then install all dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🔧 How It Works
+
+1. **Add Snippets**: Click "New" to create a snippet, add title, select language, assign tags
+2. **Organize**: Use the search bar to filter by title, tag, or language. Mark favorites with a star
+3. **Edit & Format**: Use the built-in editor with syntax highlighting. Click "Prettify" to auto-format code
+4. **Generate Images**: Click "Generate Image" to export snippets as beautiful PNG files with customizable themes
+5. **Database**: All snippets are stored locally in an SQLite database (`snippets.db`) in your project directory
+
+---
+
+## 🚀 Upcoming Features
+
+- [ ] Import/Export functionality for sharing snippet collections
+- [ ] Cloud sync option for backup and multi-device access
+- [ ] Advanced search with regex support
+- [ ] Code snippet versioning and history
+- [ ] Custom themes for the image generator
+- [ ] Keyboard shortcuts for faster workflow
+- [ ] Integration with GitHub Gists
+- [ ] Multi-language code snippets in a single card
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add YourFeature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+Please ensure your code follows Python best practices and includes appropriate comments.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📧 Contact & Support
+
+Created by **Sushant Mandolikar**
+
+- **Email**: scmandolikar@gmail.com
+- **GitHub**: [@scmandolikar](https://github.com/scmandolikar)
+- **LinkedIn**: [Sushant Mandolikar](https://www.linkedin.com/in/sushant-mandolikar-71a519256/)
+
+If you find this project useful, please give it a ⭐ on GitHub!
+
+---
+
+*Built with ❤️ by developers, for developers*
